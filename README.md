@@ -118,5 +118,8 @@
       <a href="https://github.com/TjTrerise/CI-CD-pipelines-ECS" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
-</section># TTrerise.Portfolio.io
+</section>
+
+
+TTrerise.Portfolio.io
 My Professional Cloud Engineer Portfolio
