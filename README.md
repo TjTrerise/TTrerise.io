@@ -1,9 +1,8 @@
 # Hi, I'm Tyrelle Trerise – A Cloud Engineer Aspiring to Build and Automate!
 
 <p class="leading-relaxed mb-8">
-  Beyond the scope of traditional ICT support, my passion lies in solving complex infrastructure challenges with agile, cloud-native solutions. I'm a Level 2/3 ICT Support Engineer with extensive networking experience from an MSP, I bring a unique, practical perspective to cloud architecture. My AWS Solutions Architect Associate certification proves my understanding of cloud systems and their use cases, while my nearly finalised SysOps Associate certification confirms my dedication to the industry and to the efficient deployment and management of those systems. I am driven to secure a Cloud Engineer role where I can transform operational needs into robust, automated cloud realities. 
-</p>
-
+  What I hope my portfolio shows is my desire to enter the cloud space. I wanted to focus on the ability to manually create cloud architecture as baseline, showing my understanding of not only the systems but the whole creation workflow. Being able to recognise which invidvidual pieces are needed to create the specific architecture and why I chose to use the services or software that I Did. The goal is then to upgrade each of the manual projects I previously completed by automating the whole process. I want to display my aspiration to improve. It is my goal to be able create infrastructure at the global level. The automation practicals are designed to streamline the creation process, fully utilising the power automation provides. 
+  
 ## My Cloud Engineering Projects
 
 ---
