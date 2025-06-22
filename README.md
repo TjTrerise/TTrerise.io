@@ -1,4 +1,4 @@
-# Hi, I'm Tj Trerise – A Cloud Engineer Aspiring to Build and Automate!
+# Hi, I'm Tyrelle Trerise – A Cloud Engineer Aspiring to Build and Automate!
 
 <p class="leading-relaxed mb-8">
   Beyond the scope of traditional ICT support, my passion lies in solving complex infrastructure challenges with agile, cloud-native solutions. I'm a Level 2/3 ICT Support Engineer with extensive networking experience from an MSP, I bring a unique, practical perspective to cloud architecture. My AWS Solutions Architect Associate certification proves my understanding of cloud systems and their use cases, while my nearly finalised SysOps Associate certification confirms my dedication to the industry and to the efficient deployment and management of those systems. I am driven to secure a Cloud Engineer role where I can transform operational needs into robust, automated cloud realities. 
