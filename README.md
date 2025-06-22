@@ -24,12 +24,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: Multi-Tier Web App on AWS</h3>
-      <p>Manually configured a robust multi-tier web architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
+      <p>Manually deployed a non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices..</p>
       <a href="https://github.com/TjTrerise/Manual-Deployment-Multi-Tier-Web-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: Multi-Tier Web App on AWS</h3>
-      <p>Improved the manual project by automating the creation of a robust multi-tier web architecture using EC2, RDS, ALB, and VPC, with configured IAM roles and implemented security best practices, enabling **consistent and scalable deployments**.</p>
+      <p>Improved the non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-Multi-Tier-Web-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: VPC Network Design with IaC</h3>
-      <p>Transformed manual VPC network creation into an automated, repeatable process using Infrastructure as Code. This ensures **consistent, error-free, and rapid provisioning** of robust network infrastructures for multi-tier applications.</p>
+      <p>Automated the full lifecycle of VPC network deployment (subnets, NAT Gateway, routing, security groups, VPN) using IaC that can be rapidly replicated across environments.</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-VPC-Network-Design" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -61,7 +61,7 @@
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: Monitoring & Alerting with IaC</h3>
-      <p>Automated the creation and management of CloudWatch dashboards, alarms, and tracing events using Infrastructure as Code (IaC). This approach ensures **consistent, scalable, and efficient observability** for cloud resources, significantly reducing manual overhead.</p>
+      <p>>Implemented an automated system for CloudWatch metrics, alarms (CPU, memory, billing), and CloudTrail event tracing via Infrastructure as Code</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-Monitoring-And-Alerting" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -72,12 +72,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: Build A Secure Serverless App</h3>
-      <p>Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and logged using CloudWatch. Utilized Cognito for user authentication.</p>
+      <p>Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and logged using CloudWatch. Utilised Cognito for user authentication.</p>
       <a href="https://github.com/TjTrerise/Manual-Deployment-Secure-Serverless-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: Build & Deployment of Secure Serverless App</h3>
-      <p>Automated the entire build and deployment process for the secure serverless CRUD API. This ensures **consistent, rapid, and error-free deployments** with built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
+      <p>Automated the entire build and deployment process for the secure serverless CRUD API. With built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-Secure-Severless-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -88,12 +88,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC CloudFormation: Multi-Tier App Infrastructure</h3>
-      <p>Engineered **reusable CloudFormation templates** to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring **consistent, repeatable deployments** across environments.</p>
+      <p>EngineeredCloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring repeatable depoloyments across environments..</p>
       <a href="https://github.com/TjTrerise/IAC-CloudFormation" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC Terraform: Multi-Tier App Infrastructure</h3>
-      <p>Developed **reusable Terraform modules** to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for **version control and automated, consistent deployments**.</p>
+      <p>Developed Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for version control and automated, consistent deployments.</p>
       <a href="https://github.com/TjTrerise/IAC-Terraform" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
