@@ -105,33 +105,4 @@
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">CI/CD for EC2-based Application</h3>
       <p>Automated deployment pipeline for a web application running on Amazon EC2 instances, leveraging AWS CodePipeline and CodeBuild, with deployment via CodeDeploy.</p>
-      <a href="https://github.com/TjTrerise/CI-CD-Pipelines-EC2" class="text-blue-600 hover:underline">View Project on GitHub</a>
-    </div>
-    <div class="bg-white p-4 rounded-lg shadow-md">
-      <h3 class="text-xl font-bold">CI/CD for Serverless (Lambda) Application</h3>
-      <p>Implemented a CI/CD pipeline for a serverless API using AWS Lambda and API Gateway, orchestrated via CodePipeline and deployed with AWS SAM/CloudFormation.</p>
-      <a href="https://github.com/TjTrerise/CI-CD-Pipelines-Serverless" class="text-blue-600 hover:underline">View Project on GitHub</a>
-    </div>
-    <div class="bg-white p-4 rounded-lg shadow-md">
-      <h3 class="text-xl font-bold">CI/CD for Containerized (ECS) Application</h3>
-      <p>Built an automated CI/CD pipeline for a Dockerized application deployed to Amazon ECS Fargate, including image build/push to ECR and service updates.</p>
-      <a href="https://github.com/TjTrerise/CI-CD-pipelines-ECS" class="text-blue-600 hover:underline">View Project on GitHub</a>
-    </div>
-  </div>
-</section>
-
-<section id="certs" class="mb-12">
-  <h2 class="text-2xl font-semibold mb-4">Certifications</h2>
-  <ul class="list-disc list-inside">
-    <li>AWS Certified Solutions Architect – Associate (2024)</li>
-    <li>AWS Certified SysOps Administrator – Associate (in progress)</li>
-  </ul>
-</section>
-
-<section id="contact">
-  <h2 class="text-2xl font-semibold mb-2">Contact</h2>
-  <p>Email: <a href="mailto:tyrellet@gmail.com" class="text-blue-600 hover:underline">tyrellet@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/tyrelle-trerise-9766b9108/" class="text-blue-600 hover:underline">tyrelle-trerise</a></p>
-</section>
-
 
