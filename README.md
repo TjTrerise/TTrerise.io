@@ -20,7 +20,7 @@
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold mb-4">Project 3. VPC Network Design</h2>
+  <h2 class="text-2xl font-semibold mb-4">Project 2. VPC Network Design</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: VPC Network Design</h3>
@@ -36,7 +36,7 @@
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold mb-4">Project 4. Multi-Tier Web App</h2>
+  <h2 class="text-2xl font-semibold mb-4">Project 3. Multi-Tier Web App</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: Multi-Tier Web App on AWS</h3>
@@ -52,7 +52,7 @@
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold mb-4">Project 5. Build A Secure Serverless App</h2>
+  <h2 class="text-2xl font-semibold mb-4">Project 4. Build A Secure Serverless App</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: Build A Secure Serverless App</h3>
@@ -68,7 +68,7 @@
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold mb-4">Project 6. Infrastructure As Code (IAC) CloudFormation & Terraform</h2>
+  <h2 class="text-2xl font-semibold mb-4">Project 5. Infrastructure As Code (IAC) CloudFormation & Terraform</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC CloudFormation</h3>
