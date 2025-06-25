@@ -20,22 +20,6 @@
 </section>
 
 <section class="mb-12">
-  <h2 class="text-2xl font-semibold mb-4">Project 2. Monitoring & Alerting</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    <div class="bg-white p-4 rounded-lg shadow-md">
-      <h3 class="text-xl font-bold">Manual: Monitoring & Alerting</h3>
-      <p>Created dashboards and alerts for CPU usage, memory and billing thresholds. Collected logs and set alarms via CloudWatch and SNS. Tracing events using CloudTrail.</p>
-      <a href="https://github.com/TjTrerise/Manual-Deployment-Monitoring-and-Alerting" class="text-blue-600 hover:underline">View Project on GitHub</a>
-    </div>
-    <div class="bg-white p-4 rounded-lg shadow-md">
-      <h3 class="text-xl font-bold">Automated: Monitoring & Alerting</h3>
-      <p>Implemented an automated system for CloudWatch metrics, alarms (CPU, memory, billing), and CloudTrail event tracing via Infrastructure as Code.</p>
-      <a href="https://github.com/TjTrerise/Automated-Deployment-Monitoring-And-Alerting" class="text-blue-600 hover:underline">View Project on GitHub</a>
-    </div>
-  </div>
-</section>
-
-<section class="mb-12">
   <h2 class="text-2xl font-semibold mb-4">Project 3. VPC Network Design</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
