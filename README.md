@@ -72,12 +72,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC CloudFormation: Multi-Tier App Infrastructure</h3>
-      <p>Engineered **reusable CloudFormation templates** to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring **consistent, repeatable deployments** across environments.</p>
+      <p>Engineered reusable CloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring **consistent, repeatable deployments** across environments.</p>
       <a href="https://github.com/TjTrerise/IAC-CloudFormation" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC Terraform: Multi-Tier App Infrastructure</h3>
-      <p>Developed **reusable Terraform modules** to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for **version control and automated, consistent deployments**.</p>
+      <p>Developed reusable Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for **version control and automated, consistent deployments**.</p>
       <a href="https://github.com/TjTrerise/IAC-Terraform" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -103,4 +103,5 @@
     </div>
   </div>
 </section>
+
 
