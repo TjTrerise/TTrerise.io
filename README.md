@@ -24,7 +24,7 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: VPC Network Design</h3>
-      <p>Building a robust, multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
+      <p>Built a robust, multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
       <a href="https://github.com/TjTrerise/Manual-Deployment-VPC-Network-Design" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
