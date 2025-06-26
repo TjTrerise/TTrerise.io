@@ -1,7 +1,7 @@
 # Hi, I'm Tyrelle Trerise – A Cloud Engineer Aspiring to Build and Automate!
 
 <p class="leading-relaxed mb-8">
-  Beyond the scope of traditional ICT support, my passion lies in solving complex infrastructure challenges with agile, cloud-native solutions. I'm a Level 2/3 ICT Support Engineer with extensive networking experience from an MSP, I bring a unique, practical perspective to cloud architecture. My AWS Solutions Architect Associate certification proves my understanding of cloud systems and their use cases, while my nearly finalised SysOps Associate certification confirms my dedication to the industry and to the efficient deployment and management of those systems. I am driven to secure a Cloud Engineer role where I can transform operational needs into robust, automated cloud realities. 
+  Welcome to my portfolio! What I hope my portfolio shows is my desire to enter the cloud space. I wanted to focus on the ability to manually create cloud architecture as a baseline, showing my understanding of not only my ability to use the systems but the whole creation workflow. Being able to recognise which individual pieces are needed to create the specific architecture and why I chose to use the services or software that I Did. The goal is then to upgrade each of the manual projects I previously completed by automating the whole process. I want to display my aspiration to improve. It is my goal to be able create infrastructure at the global level. The automation projects are designed to streamline the creation process, fully utilising the power automation provides.  
 </p>
 
 ## My Cloud Engineering Projects
@@ -13,7 +13,7 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Static Website Hosting + CDN + HTTPS</h3>
-      <p>Deployed a static website (blog) on S3, served via CloudFront with HTTPS, registering a domain and configuring DNS with Route 53.</p>
+      <p>Deployed a static website on S3, served via CloudFront with HTTPS, registering a domain and configuring DNS with Route 53.</p>
       <a href="https://github.com/TjTrerise/Static-Website-Hosting" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -24,12 +24,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: VPC Network Design</h3>
-      <p>Built a custom VPC with public and private subnets. Utilising NAT Gateway, route tables and security groups. As well as setting up a site-to-site VPN on EC2.</p>
+      <p>Building a robust, multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
       <a href="https://github.com/TjTrerise/Manual-Deployment-VPC-Network-Design" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: VPC Network Design with IaC</h3>
-      <p>Transformed manual VPC network creation into an automated, repeatable process using Infrastructure as Code. This ensures **consistent, error-free, and rapid provisioning** of robust network infrastructures for multi-tier applications.</p>
+      <p>Automated the full lifecycle of A multi-Region VPC deployment. Utilising IaC to create scalable inter-region connectivity through AWS Transit Gateway, ensuring repeatable and consistent deployments.</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-VPC-Network-Design" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -45,7 +45,7 @@
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: Multi-Tier Web App on AWS</h3>
-      <p>Improved the manual project by automating the creation of a robust multi-tier web architecture using EC2, RDS, ALB, and VPC, with configured IAM roles and implemented security best practices, enabling **consistent and scalable deployments**.</p>
+      <p>Improved the non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-Multi-Tier-Web-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -56,12 +56,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Manual: Build A Secure Serverless App</h3>
-      <p>Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and logged using CloudWatch. Utilized Cognito for user authentication.</p>
+      <p>Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and logged using CloudWatch. Utilised Cognito for user authentication.</p>
       <a href="https://github.com/TjTrerise/Manual-Deployment-Secure-Serverless-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">Automated: Build & Deployment of Secure Serverless App</h3>
-      <p>Automated the entire build and deployment process for the secure serverless CRUD API. This ensures **consistent, rapid, and error-free deployments** with built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
+      <p>Automated the entire build and deployment process for the secure serverless CRUD API. With built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
       <a href="https://github.com/TjTrerise/Automated-Deployment-Secure-Severless-App" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
@@ -72,12 +72,12 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC CloudFormation: Multi-Tier App Infrastructure</h3>
-      <p>Engineered reusable CloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring **consistent, repeatable deployments** across environments.</p>
+      <p>Engineered CloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring repeatable deployments across environments.<p>
       <a href="https://github.com/TjTrerise/IAC-CloudFormation" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <h3 class="text-xl font-bold">IAC Terraform: Multi-Tier App Infrastructure</h3>
-      <p>Developed reusable Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for **version control and automated, consistent deployments**.</p>
+      <p>Developed Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for version control and automated, consistent deployments.</p>
       <a href="https://github.com/TjTrerise/IAC-Terraform" class="text-blue-600 hover:underline">View Project on GitHub</a>
     </div>
   </div>
