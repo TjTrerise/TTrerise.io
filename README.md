@@ -47,9 +47,9 @@
 
     <section class="mb-12"> <h2 class="text-2xl font-semibold mb-4">Project 2.AWS Multi-Region VPC Network Architecture with Transit Gateway</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Manual: VPC Network Design</h3>
+          <h3 class="text-xl font-bold">Manual: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
           <p>Building a robust, multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
-          <span class="text-crimson">Work in Progress</span>
+          <a href="https://github.com/TjTrerise/Static-Website-Hosting" class="text-blue-600 hover:underline hover:text-blue-dark">View Project on GitHub</a>
         </div>
         <div class="bg-white p-4 rounded-lg shadow-md">
           <h3 class="text-xl font-bold">Automated: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
