@@ -1,159 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tyrelle Trerise | Cloud Engineer Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <!-- Custom CSS for the crimson color -->
-  <style>
-    .text-crimson {
-      color: #dc143c;
-    }
-    /* You might want a slightly darker crimson for hover if you want a visual change for the blue links */
-    .hover\:text-blue-dark:hover {
-        color: #2563eb; /* A slightly darker blue for hover, similar to blue-600 */
-    }
-  </style>
-</head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-5xl mx-auto p-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold">Tyrelle Trerise</h1>
-      <nav>
-        <!-- These links remain blue on hover -->
-        <a href="#about" class="mr-4 hover:text-blue-500">About</a>
-        <a href="#projects" class="mr-4 hover:text-blue-500">Projects</a>
-        <a href="#certs" class="mr-4 hover:text-blue-500">Certifications</a>
-        <a href="#contact" class="hover:text-blue-500">Contact</a>
-      </nav>
-    </div>
-  </header>
+# Tyrelle Trerise | Cloud Engineer Portfolio
 
-  <main class="max-w-5xl mx-auto px-4 py-8">
-    <section id="about" class="mb-12">
-      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
-      <p>
-      Welcome to my portfolio! What I hope my portfolio shows is my desire to enter the cloud space. I wanted to focus on the ability to manually create cloud architecture as a baseline, showing my understanding of not only my ability to use the systems but the whole creation workflow. Being able to recognise which indivdual pieces are needed to create the specific architecture and why I chose to use the services or software that I Did. The goal is then to upgrade each of the manual projects I previously completed by automating the whole process. I want to display my aspiration to improve. It is my goal to be able create infrastructure at the global level. The automation practicals are designed to streamline the creation process, fully utilising the power automation provides. 
-    </section>
+This repository hosts my personal cloud engineer portfolio website, showcasing my projects, certifications, and expertise in cloud architecture and automation.
 
-    <section id="projects" class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 1. Static Website Hosting + CDN + HTTPS</h2>
-      <div class="bg-white p-4 rounded-lg shadow-md mb-4">
-        <h3 class="text-xl font-bold">Static Website Hosting + CDN + HTTPS </h3>
-        <p>Deployed a static website on S3, served via CloudFront with HTTPS, registering a domain and configuring DNS with Route 53. </p>
-        <a href="https://github.com/TjTrerise/Static-Website-Hosting" class="text-blue-600 hover:underline hover:text-blue-dark">View Project on GitHub</a>
-      </div>
-    </section>
+**View the live portfolio here:** [https://TjTrerise.github.io/TTrerise.io/](https://TjTrerise.github.io/TTrerise.io/) ## About This Portfolio
 
-    <section class="mb-12"> <h2 class="text-2xl font-semibold mb-4">Project 2. AWS Multi-Region VPC Network Architecture with Transit Gateway</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Manual: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
-          <p>Building a robust, multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
-          <a href="https://github.com/TjTrerise/Manual-Deployment-VPC-Network-Design" class="text-blue-600 hover:underline hover:text-blue-dark">View Project on GitHub</a>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Automated: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
-          <p>Automated the full lifecycle of A multi-Region VPC deployment. Utilising IaC to create scalable inter-region connectivity through AWS Transit Gateway, ensuring repeatable and consistent deployments.</p>
-          <!-- Project 2 Automated: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+My portfolio is designed to highlight my journey into the cloud space, emphasizing my ability to manually create and understand cloud architectures, as well as my drive to automate these processes. It aims to display my aspiration to improve and build infrastructure at a global level.
 
-    <section class="mb-12"> <h2 class="text-2xl font-semibold mb-4">Project 3. Multi-Tier Web App</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Manual: Multi-Tier Web App on AWS</h3>
-          <p>Manually deployed a non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
-          <!-- Project 3 Manual: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Automated: Multi-Tier Web App on AWS</h3>
-          <p>Improved the non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
-          <!-- Project 3 Automated: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+## Technologies Used (for this website)
 
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 4. Build A Secure Serverless App</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Manual: Build A Secure Serverless App </h3>
-          <p>Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and logged using CloudWatch. Utilised Cognito for user authentication. </p>
-          <!-- Project 4 Manual: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Automated: Build A Secure Serverless App </h3>
-          <p>Automated the entire build and deployment process for the secure serverless CRUD API. With built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
-          <!-- Project 4 Automated: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+* HTML5
+* Tailwind CSS
+* GitHub Pages
 
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 5. Infrastructure As Code (IAC) CloudFormation & Terraform</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">IAC CloudFormation </h3>
-          <p>Engineered CloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring repeatable deployments across environments. </p>
-          <!-- Project 5 Manual: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">IAC Terraform </h3>
-          <p>Developed Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for version control and automated, consistent deployments. </p>
-          <!-- Project 5 Automated: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+---
 
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 6. CI/CD Pipelines with AWS CodePipeline & CodeBuild</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">CI/CD for EC2-based Application</h3>
-          <p>Automated deployment pipeline for a web application running on Amazon EC2 instances, leveraging AWS CodePipeline and CodeBuild, with deployment via CodeDeploy.</p>
-          <!-- Project 6 Manual: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">CI/CD for Serverless (Lambda) Application</h3>
-          <p>Implemented a CI/CD pipeline for a serverless API using AWS Lambda and API Gateway, orchestrated via CodePipeline and deployed with AWS SAM/CloudFormation.</p>
-          <!-- Project 6 Serverless: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">CI/CD for Containerized (ECS) Application</h3>
-          <p>Built an automated CI/CD pipeline for a Dockerized application deployed to Amazon ECS Fargate, including image build/push to ECR and service updates.</p>
-          <!-- Project 6 Containerized: Work in Progress -->
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="certs" class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4">Certifications</h2>
-        <ul class="list-disc list-inside">
-            <li>AWS Certified Solutions Architect – Associate (2024)</li>
-            <li>AWS Certified SysOps Administrator – Associate (in progress)</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2 class="text-2xl font-semibold mb-2">Contact</h2>
-        <p>Email: <a href="mailto:tyrellet@gmail.com" class="text-blue-600 hover:underline">tyrellet@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/tyrelle-trerise-9766b9108/" class="text-blue-600 hover:underline">tyrelle-trerise</a></p>
-        <p>GitHub: <a href="https://tjtrerise.github.io/TTrerise.io/" class="text-blue-600 hover:underline">tyrelle-trerise</a></p>
-    </section>
-  </main>
-
-  <footer class="text-center py-6 text-sm text-gray-500">
-    &copy; 2025 Tyrelle Trerise. Built with HTML & Tailwind CSS.
-  </footer>
-</body>
-</html>
+© 2025 Tyrelle Trerise.
