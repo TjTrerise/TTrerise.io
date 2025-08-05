@@ -1,184 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tyrelle Trerise | Cloud Engineer Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    .text-crimson {
-      color: #dc143c;
-    }
-    .hover\:text-blue-dark:hover {
-        color: #2563eb; 
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyrelle Trerise | Cloud Engineer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .text-crimson {
+            color: #dc143c;
+        }
+        .hover\:text-blue-dark:hover {
+            color: #2563eb; 
+        }
+      
+        body {
+            background-image: url('docs/images/main-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            font-family: sans-serif; 
+            color: #f8fafc; 
+        }
+    </style>
 </head>
-<body class="bg-gray-100 text-gray-800 font-sans">
-  <header class="bg-white shadow-md sticky top-0 z-50">
-    <div class="max-w-5xl mx-auto p-4 flex justify-between items-center">
-      <h1 class="text-xl font-bold">Tyrelle Trerise</h1>
-      <nav>
-        <a href="#about" class="mr-4 hover:text-blue-500">About</a>
-        <a href="#projects" class="mr-4 hover:text-blue-500">Projects</a>
-        <a href="#certs" class="mr-4 hover:text-blue-500">Certifications</a>
-        <a href="#contact" class="hover:text-blue-500">Contact</a>
-      </nav>
-    </div>
-  </header>
+<body class="antialiased">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto p-4 flex justify-between items-center">
+            <h1 class="text-xl text-indigo-600 font-bold">Tyrelle Trerise</h1>
+            <nav>
+                <a href="https://tjt.org.uk" class="mr-4 text-xl text-indigo-600 font-bold hover:text-blue-500">Website </a> 
+            </nav>
+        </div>
+    </header>
 
-  <main class="max-w-5xl mx-auto px-4 py-8">
-    <section id="about" class="mb-12">
-      <h2 class="text-2xl font-semibold mb-2">About Me</h2>
-      <p>
-      Experienced Level 3 IT Engineer with expertise in comprehensive infrastructure management, cloud solutions (AWS, Microsoft 365), and advanced network administration. Proven ability to resolve complex incidents, automate processes, and enhance security postures for diverse client environments.
-    </section>
-
-    <section id="projects" class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 1. Static Website Hosting + CDN + HTTPS</h2>
-      <div class="bg-white p-4 rounded-lg shadow-md mb-4">
-        <h3 class="text-xl font-bold">Static Website Hosting + CDN + HTTPS </h3>
-        <p>Deployed a static website on S3, served via CloudFront with HTTPS, registering a domain and configuring DNS with Route 53. </p>
-        <a href="https://github.com/TjTrerise/Static-Website-Hosting" class="text-blue-600 hover:underline hover:text-blue-dark">View Project on GitHub</a>
-      </div>
-    </section>
-
-    <section class="mb-12"> 
-      <h2 class="text-2xl font-semibold mb-4">Project 2. AWS Multi-Region VPC Network Architecture with Transit Gateway</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> 
-        <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
-          <h3 class="text-xl font-bold mb-2">Manual: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
-            <div>
-              <h4 class="font-semibold text-gray-700 mb-2">Architectural Diagram</h4>
-              <a href="docs/architectural-diagrams/2/vpc-manual.png" target="_blank">
-                <img src="docs/architectural-diagrams/2/vpc-manual-thumbnail.png" alt="Manual Deployment Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
-              </a>
-              <p class="text-sm text-gray-500 mt-1">Click to enlarge</p>
+    <main class="max-w-5xl mx-auto px-4 py-8">
+        <section id="about" class="mb-12">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h2 class="text-2xl text-indigo-600 font-semibold mb-2">Welcome To My Projects Page</h2>
+                <p>
+                    <h4 class="font-semibold text-slate-600 mb-2 inline-block"> My journey as an IT Engineer has been a continuous process of learning and growth, with a strong focus on mastering cloud solutions and infrastructure. The projects on this page represent my dedication to building practical, hands-on skills in comprehensive infrastructure management Utilising cloud solutions. I hope that it reflects my continuing growth and development of skills. The initial projects were all manual creations. The goal was to fully understand the workflow and how to manually create each of the architecture types. Once I had that fundamental understanding it was creating scalable and reusable templates.</h4>
+                </p>
             </div>
-            <div>
-              <p>Manually deployed a multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
-              <a href="https://github.com/TjTrerise/Manual-Deployment-VPC-Network-Design" class="text-blue-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+        </section>
+
+        <section id="projects" class="mb-12">
+            <div class="bg-white p-4 rounded-lg shadow-md mb-4">
+                <h3 class="text-xl text-indigo-600 font-bold">Static Website Hosting + CDN + HTTPS</h3>
+                <p class="text-slate-600">Deployed a static website on S3, served via CloudFront with HTTPS, registering a domain and configuring DNS with Route 53.</p>
+                <a href="https://github.com/TjTrerise/Static-Website-Hosting" target="_blank" class="text-indigo-600 hover:underline hover:text-blue-dark">View Project on GitHub</a>
             </div>
-          </div>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Automated: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
-          <p>Automated the full lifecycle of A multi-Region VPC deployment. Utilising IaC to create scalable inter-region connectivity through AWS Transit Gateway, ensuring repeatable and consistent deployments.</p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="mb-12"> 
-      <h2 class="text-2xl font-semibold mb-4">Project Project 3. Multi-Tier Web App</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> 
-        <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
-          <h3 class="text-xl font-bold mb-2">Manual: Multi-Tier Web App on AWS</h3>
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
-            <div>
-              <h4 class="font-semibold text-gray-700 mb-2">Architectural Diagram </h4>
-              <a href="docs/architectural-diagrams/3/manual/manual-multi-app.png" target="_blank">
-                <img src="docs/architectural-diagrams/3/manual/manual-multi-thumbnail.png" alt="Manual Deployment Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
-              </a>
-              <p class="text-sm text-gray-500 mt-1">Click to enlarge</p>
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                    <h3 class="text-xl text-indigo-600 font-bold mb-2">Manual: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2 inline-block">Architectural Diagram</h4>
+                            <a href="docs/architectural-diagrams/2/vpc-manual.png" target="_blank">
+                                <img src="docs/architectural-diagrams/2/vpc-manual-thumbnail.png" alt="Manual Deployment Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
+                            </a>
+                            <p class="text-sm text-slate-600 mt-1">Click to enlarge</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-600">Manually deployed a multi-region cloud network architecture on AWS. Leveraging core networking components like custom VPCs, public/private subnets, NAT Gateways, and security groups, with a focus on establishing secure and scalable inter-region connectivity using AWS Transit Gateway.</p>
+                            <a href="https://github.com/TjTrerise/Manual-Deployment-VPC-Network-Design" target="_blank" class="text-indigo-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">Automated: AWS Multi-Region VPC Network Architecture with Transit Gateway</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2 inline-block">Architectural Diagram</h4>
+                            <a href="docs/architectural-diagrams/2/automated-multi-region-vpc.png" target="_blank">
+                                <img src="docs/architectural-diagrams/2/automated-multi-region-vpc.(thumbnail).png" alt="Automated Deployment Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
+                            </a>
+                            <p class="text-sm text-slate-600 mt-1">Click to enlarge</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-600">Automated the full lifecycle of A multi-Region VPC deployment. Utilising CloudFormation to create scalable inter-region connectivity through AWS Transit Gateway, ensuring repeatable and consistent deployments.</p>
+                            <a href="https://github.com/TjTrerise/Automated-Deployment-VPC-Network-Design" target="_blank" class="text-indigo-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-              <p>Manually deployed a non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
-              <a href="https://github.com/TjTrerise/Manual-Deployment-Multi-Tier-Web-App" class="text-blue-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+        </section>
+
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                    <h3 class="text-xl text-indigo-600 font-bold mb-2">Manual: Multi-Tier Web App on AWS</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Architectural Diagram</h4>
+                            <a href="docs/architectural-diagrams/3/manual/manual-multi-app.png" target="_blank">
+                                <img src="docs/architectural-diagrams/3/manual/manual-multi-thumbnail.png" alt="Manual Multi-Tier Web App Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
+                            </a>
+                            <p class="text-sm text-slate-600 mt-1">Click to enlarge</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-600">Manually deployed a non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
+                            <a href="https://github.com/TjTrerise/Manual-Deployment-Multi-Tier-Web-App" target="_blank" class="text-indigo-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">Automated: Multi-Tier Web App on AWS</h3>
+                    <p class="text-slate-600">Improved the non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
             </div>
-          </div>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Automated: Multi-Tier Web App on AWS</h3>
-          <p>Improved the non-scalable 3-tier architecture using EC2, RDS, ALB, and VPC. Configured IAM roles and implemented security best practices.</p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="mb-12"> 
-      <h2 class="text-2xl font-semibold mb-4">Project 4. A Secure Serverless App</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> 
-        <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
-          <h3 class="text-xl font-bold mb-2">Manual: Build A Secure Serverless App</h3>
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
-            <div>
-              <h4 class="font-semibold text-gray-700 mb-2">Architectural Diagram </h4>
-              <a href="docs/architectural-diagrams/4/manual/manual-serverless.png" target="_blank">
-                <img src="docs/architectural-diagrams/4/manual/manual-serverless-thumbnail.png" alt="Manual Deployment Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
-              </a>
-              <p class="text-sm text-gray-500 mt-1">Click to enlarge</p>
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-md flex flex-col">
+                    <h3 class="text-xl text-indigo-600 font-bold mb-2">Manual: Build A Secure Serverless App</h3>
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 items-start">
+                        <div>
+                            <h4 class="font-semibold text-slate-800 mb-2">Architectural Diagram</h4>
+                            <a href="docs/architectural-diagrams/4/manual/manual-serverless.png" target="_blank">
+                                <img src="docs/architectural-diagrams/4/manual/manual-serverless-thumbnail.png" alt="Manual Serverless App Diagram" class="w-full h-auto rounded-md shadow-sm border border-gray-200" />
+                            </a>
+                            <p class="text-sm text-slate-600 mt-1">Click to enlarge</p>
+                        </div>
+                        <div>
+                            <p class="text-slate-600">Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and utilised Cognito for user authentication.</p>
+                            <a href="https://github.com/TjTrerise/Manual-Deployment-Secure-Serverless-App" target="_blank" class="text-indigo-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">Automated: A Secure Serverless App</h3>
+                    <p class="text-slate-600">Automated the entire build and deployment process for the secure serverless CRUD API. With built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
             </div>
-            <div>
-              <p>Built a serverless CRUD API using API Gateway, Lambda and DynamoDB. Added fine-grained IAM permissions and logged using CloudWatch. Utilised Cognito for user authentication. </p>
-              <a href="https://github.com/TjTrerise/Manual-Deployment-Secure-Serverless-App" class="text-blue-600 hover:underline hover:text-blue-dark mt-2 block">View Project on GitHub</a>
+        </section>
+
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">IAC CloudFormation</h3>
+                    <p class="text-slate-600">Engineered CloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring repeatable deployments across environments.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">IAC Terraform</h3>
+                    <p class="text-slate-600">Developed Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for version control and automated, consistent deployments.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
             </div>
-          </div>
-        </div>
-          <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">Automated: A Secure Serverless App</h3>
-          <p>Automated the entire build and deployment process for the secure serverless CRUD API. With built-in security configurations (IAM, logging, Cognito integration) at scale.</p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
-        
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 5. Infrastructure As Code (IAC) CloudFormation & Terraform</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6"> <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">IAC CloudFormation </h3>
-          <p>Engineered CloudFormation templates to automate the provisioning of a highly available, multi-tier application infrastructure. Version-controlled on GitHub, ensuring repeatable deployments across environments. </p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">IAC Terraform </h3>
-          <p>Developed Terraform modules to provision a scalable, multi-tier application infrastructure programmatically. Managed via GitHub for version control and automated, consistent deployments. </p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <section class="mb-12">
-      <h2 class="text-2xl font-semibold mb-4">Project 6. CI/CD Pipelines with AWS CodePipeline & CodeBuild</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">CI/CD for EC2-based Application</h3>
-          <p>Automated deployment pipeline for a web application running on Amazon EC2 instances, leveraging AWS CodePipeline and CodeBuild, with deployment via CodeDeploy.</p>
-          <span class="text-crimson">Work in Progress</span>
+        <section class="mb-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">CI/CD for EC2-based Application</h3>
+                    <p class="text-slate-600">Automated deployment pipeline for a web application running on Amazon EC2 instances, leveraging AWS CodePipeline and CodeBuild, with deployment via CodeDeploy.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">CI/CD for Serverless (Lambda) Application</h3>
+                    <p class="text-slate-600">Implemented a CI/CD pipeline for a serverless API using AWS Lambda and API Gateway, orchestrated via CodePipeline and deployed with AWS SAM/CloudFormation.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
+                <div class="bg-white p-4 rounded-lg shadow-md">
+                    <h3 class="text-xl text-indigo-600 font-bold">CI/CD for Containerized (ECS) Application</h3>
+                    <p class="text-slate-600">Built an automated CI/CD pipeline for a Dockerized application deployed to Amazon ECS Fargate, including image build/push to ECR and service updates.</p>
+                    <span class="text-amber-600">Work in Progress</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="w-full max-w-5xl mx-auto bg-slate-800 text-white rounded-xl p-6 sm:p-8 text-center mt-8">
+        <h3 class="text-xl sm:text-2xl font-bold mb-4">Get in Touch</h3>
+        <p class="mb-4">
+            Feel free to connect with me!
+        </p>
+        <p class="mb-4">Email: <a href="mailto:tyrellet@gmail.com" class="text-indigo-300 hover:underline">tyrellet@gmail.com</a></p>
+        <div class="flex justify-center gap-6 text-slate-300 mb-6">
+            <a href="https://www.linkedin.com/in/tyrelle-trerise-9766b9108/" target="_blank" class="hover:text-indigo-400 transition duration-300">
+                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.325-.028-3.044-1.852-3.044-1.853 0-2.136 1.445-2.136 2.956v5.657H9.596V9.227h3.407v1.564h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.064-2.065 2.062 2.062 0 012.064-2.063 2.064 2.064 0 012.064 2.063 2.062 2.062 0 01-2.064 2.065zm-.011 13.012H3.25V9.227h2.076v11.218z" />
+                </svg>
+            </a>
         </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">CI/CD for Serverless (Lambda) Application</h3>
-          <p>Implemented a CI/CD pipeline for a serverless API using AWS Lambda and API Gateway, orchestrated via CodePipeline and deployed with AWS SAM/CloudFormation.</p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-        <div class="bg-white p-4 rounded-lg shadow-md">
-          <h3 class="text-xl font-bold">CI/CD for Containerized (ECS) Application</h3>
-          <p>Built an automated CI/CD pipeline for a Dockerized application deployed to Amazon ECS Fargate, including image build/push to ECR and service updates.</p>
-          <span class="text-crimson">Work in Progress</span>
-        </div>
-      </div>
-    </section>
+        <p class="text-sm text-slate-400">&copy; <span id="current-year"></span> Tyrelle Trerise. All rights reserved.</p>
+    </footer>
 
+    <script>
+        // Set current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
 
-    <section id="certs" class="mb-12">
-        <h2 class="text-2xl font-semibold mb-4">Certifications</h2>
-        <ul class="list-disc list-inside">
-            <li>AWS Certified Solutions Architect – Associate (2024)</li>
-            <li>AWS Certified SysOps Administrator – Associate (in progress)</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2 class="text-2xl font-semibold mb-2">Contact</h2>
-        <p>Email: <a href="mailto:tyrellet@gmail.com" class="text-blue-600 hover:underline">tyrellet@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/tyrelle-trerise-9766b9108/" class="text-blue-600 hover:underline">tyrelle-trerise</a></p>
-        <p>GitHub: <a href="https://tjtrerise.github.io/TTrerise.io/" class="text-blue-600 hover:underline">tyrelle-trerise</a></p>
-    </section>
-  </main>
-
-  <footer class="text-center py-6 text-sm text-gray-500">
-    &copy; 2025 Tyrelle Trerise. Built with HTML & Tailwind CSS.
-  </footer>
+        // Optional: Smooth scrolling for internal links (like #contact)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
